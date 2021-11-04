@@ -17,10 +17,6 @@ h2 {
     margin-top: 50px;
 }
 
-.card img {
-    height: 33%;
-}
-
 p {
     font-weight: 400;
 }
@@ -34,4 +30,11 @@ p {
 
 .footer i {
     margin: 0 3px;
+}
+
+@media (min-width: 575px){
+    .imagen {
+        max-height: 8rem;
+        overflow: hidden;
+    }
 }
