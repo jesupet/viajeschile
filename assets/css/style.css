@@ -38,3 +38,12 @@ p {
         overflow: hidden;
     }
 }
+
+nav.active{
+    background-color: #17a2b8;
+}
+
+nav.active .navbar-brand,
+nav.active a{
+   color: #fff !important; 
+}

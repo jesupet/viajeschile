@@ -1,3 +1,14 @@
+$(window).scroll(function(){
+    if($(this).scrollTop()>900){
+        $('#menu').addClass('active');
+    }
+    else{
+        $('#menu').removeClass('active');
+    }
+});
+
+
+
 $(function(){
 
     $("a").click(function(event){
@@ -15,3 +26,5 @@ $(function(){
     });
     $('[data-toggle="popover"]').popover()
 });
+
+
